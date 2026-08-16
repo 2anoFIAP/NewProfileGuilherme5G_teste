@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="380">
+<style>
+    .text { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #c9d1d9; }
+    .title { font-weight: bold; font-size: 16px; fill: #58a6ff; }
+    .key { font-weight: bold; }
+    .line { opacity: 0; animation: fadeIn 0.5s ease forwards; }
+    @keyframes fadeIn {
+        0% { opacity: 0; transform: translateX(-10px); }
+        100% { opacity: 1; transform: translateX(0); }
+    }
+</style>
+<rect width="490" height="380" fill="#0d1117" rx="8" />
+<g class="text" transform="translate(20, 30)">
+    <text class="title line" style="animation-delay: 0.1s" y="0">guilherme@github</text>
+    <text class="line" style="animation-delay: 0.2s" y="20">-----------------------------------------------</text>
+    <text class="line" style="animation-delay: 0.30s" y="50">
+        <tspan class="key" fill="#58a6ff">Role:</tspan>
+        <tspan x="100">Software Engineering Student @ FIAP</tspan>
+    </text>
+    <text class="line" style="animation-delay: 0.45s" y="75">
+        <tspan class="key" fill="#3fb950">Location:</tspan>
+        <tspan x="100">Guarulhos, SP, Brazil</tspan>
+    </text>
+    <text class="line" style="animation-delay: 0.60s" y="100">
+        <tspan class="key" fill="#d2a8ff">Stack:</tspan>
+        <tspan x="100">Full Stack, Python, Flask, Jinja, JS, SQL</tspan>
+    </text>
+    <text class="line" style="animation-delay: 0.75s" y="125">
+        <tspan class="key" fill="#f0883e">Interests:</tspan>
+        <tspan x="100">Machine Learning, AI, Data Architecture</tspan>
+    </text>
+    <text class="line" style="animation-delay: 0.90s" y="150">
+        <tspan class="key" fill="#ff7b72">Projects:</tspan>
+        <tspan x="100"></tspan>
+    </text>
+    <text class="line" style="animation-delay: 1.05s" y="175">
+        <tspan class="key" fill="#79c0ff"> ├─</tspan>
+        <tspan x="40">PassaBola (Web App)</tspan>
+    </text>
+    <text class="line" style="animation-delay: 1.20s" y="200">
+        <tspan class="key" fill="#79c0ff"> ├─</tspan>
+        <tspan x="40">SkillSync (GenAI Platform)</tspan>
+    </text>
+    <text class="line" style="animation-delay: 1.35s" y="225">
+        <tspan class="key" fill="#79c0ff"> ├─</tspan>
+        <tspan x="40">Análise de Desempenho</tspan>
+    </text>
+    <text class="line" style="animation-delay: 1.50s" y="250">
+        <tspan class="key" fill="#79c0ff"> └─</tspan>
+        <tspan x="40">Stock Flow (CS50 Final Project)</tspan>
+    </text>
+    <text class="line" style="animation-delay: 1.65s" y="275">
+        <tspan class="key" fill="#ffa657">Hobbies:</tspan>
+        <tspan x="100">Weightlifting, F1, Rick & Morty, Anime</tspan>
+    </text>
+</g>
+</svg>
